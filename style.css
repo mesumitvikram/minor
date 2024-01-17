@@ -542,34 +542,46 @@ html{
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.934);
+    background-color: #365510b0;
     padding-top: 60px;
 }
 
 .footer {
-    height: 300px;
+    height: auto;
     display: flex;
+
     justify-content: space-evenly;
 
 }
 
 footer ul li {
     list-style: none;
-    width: 145px;
+    width: auto;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+.second-footer {
+    width: 100px;
 }
 
 footer ul li a {
     text-decoration: none;
-    /* color: white; */
+    opacity: 0.5;
+    color: white;
+    transition: o.3s ease ;
 }
 
 footer ul li a:hover {
-    color: rgb(97, 109, 70);
-    font-size: 1.1rem;
+    color: white;
+    opacity: 1;
+    font-size: 19px;
+    margin-bottom: 16px;
 }
 
 .text-center {
     text-align: center;
-    color: gray;
+    color: rgb(0, 0, 0);
     padding-bottom: 10px;
+    background-color: #365510d8 ;
 }
