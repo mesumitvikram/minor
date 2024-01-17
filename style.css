@@ -112,8 +112,8 @@ html{
 .content .cn {
     width: 160px;
     height: 40px;
-    background: #02792f;
-    border: none;
+    background: white;
+    border: 2px solid #02792f;
     margin-bottom: 10px;
     margin-left: 20px;
     font-size: 18px;
@@ -124,7 +124,7 @@ html{
 
 .content .cn a {
     text-decoration: none;
-    color: #dfd2d2;
+    color: #272f01;
     transition: .3s ease;
 }
 
